@@ -1,4 +1,8 @@
-const logger = require("./export");
+const myModule = require("./export");
 
-logger.info("User Logged In Successfully!");
-logger.err("Error while generating response...");
+myModule.logger.info("User Logged In Successfully!");
+myModule.logger.error("Error while generating response...");
+
+myModule.sayHi("Gogo");
+
+
