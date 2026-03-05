@@ -7,4 +7,4 @@ myEmitter.once('login',(username) => {
 })
 
 myEmitter.emit('login','Adelin');
-myEmitter.emit('login','Galen');// This is ignored because of the 'once' keyword
+myEmitter.emit('login','Galen');// This is ignored because of the 'once' keyword, it works one
