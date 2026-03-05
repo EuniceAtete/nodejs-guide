@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 // Async write to jenny.txt
-fs.writeFile('jenny.txt', 'Jenny Mariotta', (err) => {
+fs.writeFile('jenny.txt', 'Jenny Miriotta', (err) => {
     if (err) throw err;
     console.log("jenny.txt written");
 });
